@@ -1,3 +1,5 @@
+# Testcase 2: Testing page title and recording the test result in the database.
+
 import mysql.connector
 import pytest
 from selenium import webdriver
