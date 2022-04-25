@@ -1,4 +1,4 @@
-# Testcase 1: Creating a table and testing connection.
+# Testcase 1: Creating a table in MySQL and testing connection.
 
 import mysql.connector
 
