@@ -1,4 +1,5 @@
 # Testcase 3: Testing "click" interactions on links and recording the test result in the database.
+
 from record_test import record_test
 import pytest
 from selenium import webdriver
