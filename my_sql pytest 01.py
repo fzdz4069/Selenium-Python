@@ -3,7 +3,6 @@
 from record_test import record_test
 import pytest
 from selenium import webdriver
-import sys
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
