@@ -25,6 +25,6 @@ assert url == expected_url
 driver.get_screenshot_as_file("bitchute.png")
 
 condition = url == expected_url
-record_test("3", "bitchute.com", "Test click interactions on links", condition)
+record_test("3", "bitchute.com", "Testing click interactions on links", condition)
 
 driver.close()
