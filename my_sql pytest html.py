@@ -1,4 +1,5 @@
-# Opening an HTML file with chromedriver and analyzing which links inside the file are working (all the files are attached in fz_html.zip).
+# Opening an HTML file with chromedriver and analyzing which links inside the file are working
+# (all the files are attached in fz_html.zip).
 # Creating a new table in MySQL and recording the test result for each link.
 
 import mysql.connector
