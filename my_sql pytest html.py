@@ -1,4 +1,4 @@
-# Opening an HTML file with chromedriver and analyzing which links inside the file are working.
+# Opening an HTML file with chromedriver and analyzing which links inside the file are working (all the files are attached in fz_html.zip).
 # Creating a new table in MySQL and recording the test result for each link.
 
 import mysql.connector
@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome()
-driver.get("file:///D:/arch/2/IT/Python/pytest/fz_html/main/index.html")
+driver.get("file:///D:/temp/fz_html/main/index.html")
 driver.maximize_window()
 
 new_tab = Keys.CONTROL + Keys.ENTER
@@ -33,7 +33,7 @@ page_titles.reverse()
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="ffzzddzz44006699",
+    passwd="abcde12345",
     database="python")
 
 cursor = mydb.cursor(buffered=True)
