@@ -28,8 +28,9 @@ link = video.get_attribute("href")
 
 driver.get('https://y2mate.is')
 driver.find_element(By.XPATH, '//*[@id="txtUrl"]').send_keys(link)
-driver.find_element(By.XPATH, "//*[@id='btnSubmit']").click()
-driver.find_element(By.XPATH, "//*[@id='btnSubmit']").click()
+start = driver.find_element(By.XPATH, "//*[@id='btnSubmit']")
+start.click()
+start.click()
 sleep(10)
 
 xpath1 = "/html/body/section[1]/div/div[2]/div[2]/div/div[2]/div/div[2]/table/tbody/tr[3]/td[3]/button"
